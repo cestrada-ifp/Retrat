@@ -1,0 +1,336 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.adios{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    top: 400px;
+}
+
+.linea {
+    width: 5px;
+    height: 95px;
+    background: rgb(234, 165, 116);
+    margin: 0px auto;
+    z-index: 50;
+    top: 460px;
+}
+.barra {
+    height: 20px;
+    width: 60px;
+    background: rgb(42, 9, 3);
+    z-index: 50;
+    margin: 0px auto;
+    top: 700px;
+}
+
+.b2{
+    left: 300px;
+    top: 685px;
+}
+.b3{
+    right: 300px;
+    top: 665px;
+}
+
+
+.gafas {
+    height: 200px;
+    width: 270px;
+    clip-path: polygon(15% 0, 4% 0, 5% 81%, 10% 91%, 91% 91%, 96% 80%, 96% 0, 15% 0, 13% 12%, 87% 12%, 87% 79%, 15% 79%);
+    background: rgb(42, 9, 3);
+    z-index: 50;
+}
+
+.g1{
+    right: 100px;
+    top: 620px;
+    right: 150px;
+}
+
+.g2{
+    transform:scaleX(-1);
+    left: 150px;
+    top: 420px;
+}
+
+.cara {
+    width: 580px;
+    height: 730px;
+    background: rgb(255, 194, 143);
+    border-radius: 170px 170px 50% 50%;
+    margin: 0px auto;
+
+}
+.cabell {
+    height: 70px;
+    width: 550px;
+    border-radius: 250px 250px 20px 20px;
+    margin: 0px auto;
+    
+}
+
+.front {
+    height: 150px;
+    background:  rgb(255, 194, 143);
+    text-align: center;
+    border-radius: 90px 90px 0px 0px;
+}
+.front .cejas {
+    height: 150px;
+    width: 200px;
+    clip-path: polygon(14% 36%, 74% 37%, 100% 50%, 70% 43%, 32% 45%, 0% 50%);
+    background: rgb(57,57,119);
+background: linear-gradient(0deg, rgba(57,57,119,1) 0%, rgba(0,0,0,1) 100%);
+    display: inline-block;
+    margin: 0px auto;
+    
+}
+
+.c1 {
+    transform: scaleX(-1);
+    right: 40px;
+    top: 70px;
+}
+
+.c2{
+    left: 40px;
+    top: 70px;
+}
+
+.mirada {
+    height: 140px;
+    background: rgb(255, 194, 143);
+    text-align: center;
+}
+
+.mirada .ull{
+    height: 65px;
+    width: 120px;
+    background: rgb(255, 255, 255);
+    border-radius: 45%;
+    display: inline-block;
+    top: 40px;
+    border-top-width: 2px;
+    border-top-color: black;
+}
+
+.u1{
+ right: 60px;
+}
+
+.u2{
+    left: 60px;
+}
+
+.mirada .ull .iris {
+    height: 20px;
+    width: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: -50px 70px;
+    position: absolute;   
+}
+.mirada .ull .retina {
+    height: 65px;
+    width: 60px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.orelles{
+    height: 190px;
+    width: 105px;
+    background: rgb(255,203,160);
+background: linear-gradient(90deg, rgba(255,203,160,1) 0%, rgba(233,151,92,1) 77%);
+    border-radius: 70px 70px  0 50px;
+    display: inline-block;
+    margin: 0px auto;
+    right: 70px;
+    bottom: 100px;
+}
+
+.o1{
+    transform: rotate(-20deg);
+    z-index: -20;
+}
+
+
+.o2 {
+    left: 440px;
+    transform:scaleX(-1) rotate(-20deg);
+    z-index: -20;
+}
+
+.nas{
+    width: 70px;
+    height: 130px;
+    clip-path: polygon(55% 0, 38% 37%, 30% 69%, 48% 100%, 23% 91%, 4% 70%);
+    background-color: rgb(234, 165, 116);
+    margin: 0 auto;
+    bottom: 200px;
+}
+
+.boca {
+    background-color: rgb(198, 77, 77);
+  width: 230px;
+  height: 250px;
+  clip-path: ellipse(33% 27% at 50% 0%);
+  box-shadow: inset -20px -10px 0px rgb(255, 255, 255);
+  margin: 0 auto;
+  bottom: 140px;
+}
+
+.dents{
+    background: white;
+    width: 210px;
+    height: 17px;
+}
+
+.coll{
+    width: 260px;
+    height: 225px;
+    background: rgb(255,203,160);
+    background: linear-gradient(0deg, rgba(255,203,160,1) 0%, rgba(233,151,92,1) 100%);
+    margin: 0px auto;
+    z-index: -10;
+    bottom: 50px;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.melena{
+    width: 650px;
+    height: 450px;
+    background: rgb(0, 0, 0);
+    margin: 0px auto;
+    z-index: -30;
+    bottom: 1050px;
+    border-radius: 250px 250px 0px 0px;
+
+}
+
+.coleta{
+    width: 300px;
+    height: 250px;
+    background: rgb(116,116,116);
+background: linear-gradient(0deg, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 57%);
+    margin: 0px auto;
+    z-index: -40;
+    bottom: 850px;
+    right: 300px;
+    border-radius: 100% 0%;
+    transform: rotate(-10deg);
+}
+
+.patillas {
+    width: 20px;
+    height: 160px;
+    background: black;
+    border-radius: 0% 0% 100% 0%;
+    margin: 0 auto;
+    bottom: 1400px;
+}
+.p1{
+    left: 300px;
+}
+.p2{
+    transform:scaleX(-1) ;
+    right: 300px;
+    bottom: 1560px;
+}
+
+.chaqueta{
+    height:540px;
+    width: 350px;
+    background: rgb(68,90,161);
+background: linear-gradient(0deg, rgba(68,90,161,1) 0%, rgba(112,108,184,1) 57%);
+    z-index: 120;
+    bottom: 1740px;
+}
+
+.ch1{
+    left: -360px;
+    border-radius: 75% 0% 0% 0%;
+    
+}
+.ch2{
+    bottom: 2280px;
+    left: 355px;
+    border-radius: 0% 75% 0% 0%;
+}
+
+.camiseta {
+    width: 1000px;
+    height: 550px;
+    background: rgb(164, 191, 234);
+    margin: 0 auto;
+    z-index: -50;
+    bottom: 1200px;
+    border-radius: 45% 45% 0 0;
+    background-image: url(../img/scara.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 350px 140px;
+}
+.capucha{
+    width: 700px;
+    height: 300px;
+    background: rgb(68,90,161);
+background: radial-gradient(circle, rgba(68,90,161,1) 26%, rgba(112,108,184,1) 54%);
+    border-radius: 50%;
+    bottom: 2950px;
+    z-index: -500;
+}
+
+.lados{
+    width: 115px;
+    height: 200px;
+    background: rgb(68,90,161);
+background: linear-gradient(90deg, rgba(68,90,161,1) 0%, rgba(112,108,184,1) 51%);
+    clip-path: polygon(13% 4%, 0 0, 100% 0, 83% 69%, 62% 100%, 54% 53%, 50% 35%, 43% 23%, 33% 14%, 24% 8%);
+    z-index: 500;
+    bottom: 3130px;
+}
+.la1{
+    left:190px;
+}
+.la2{
+    transform:scaleX(-1) ;
+    left: -200px;
+    bottom: 3325px;
+}
+.cap{
+    top: -1150px;
+    overflow: hidden;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+}
+
+.cap:hover{
+    animation: baixa 10s 1 linear normal;
+}
+
+#cestrada {
+    transform: scale(65%);
+}
+
+@keyframes baixa {
+    0% { opacity: 100%;
+    }
+    60%{
+        margin-top: 700px;
+        opacity: 0%;   
+   }
+
+    100%{
+         margin-top: 700px;
+         pacity: 0%;
+    }
+}
